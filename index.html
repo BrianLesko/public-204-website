@@ -1,0 +1,48 @@
+<!doctype html>
+<!-- By Brian Lesko on 7/27/24 -->
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <title>204 E Oakland</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+<!-- start of main content-->
+<body>
+  <div class="container">
+    <header class="full-width-grey-bg" style="height: 40px; display: flex; background-color: #E6E8E6; height: 40px; position: fixed; top: 0; z-index: 90000;">
+        <div class="link" style="text-align: center;">
+          <a href="https://mystudentrental.co" class="link" style="font-size: 0.76em;">My Student Rental Co.</a>
+        </div>
+        <div class="link" style="text-align: right;">
+          <a href="https://mystudentrental/tenants/" class="h2link" style="font-size: 0.76em;">Tenants</a>
+        </div>
+      </header>
+    <div style="height: 50px;"></div>
+    <div id="content" class="content"></div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+      loadMarkdown('./homepage.md');
+    </script>
+  </div>
+  <!-- end of main content-->
+
+  <div class="full-width" style="display: flex; justify-content: center; align-items: center; margin-top: 10px; background-color: #E6E8E6; height: 20px; margin-bottom: 10px;">
+    <!-- -->
+  </div>
+  <footer class="footer">
+    <div class="footer-content">
+      <a href="#file-inquire">
+        <button class="button">Inquire</button>
+      </a>
+      <a href="mailto:204EOakland@gmail.com?subject=Hello&body=Hello,%20I%20have%20a%20question." class="link">Contact ></a>
+    </div>
+    <div class="footer-bottom" style="margin-top: auto;">
+      <hr>
+      <p>204EOakland@gmail.com | 204 E Oakland LLC | Ohio State Campus Rental | My Student Rental </p>
+    </div>
+  </footer>
+</body>
+</html>
