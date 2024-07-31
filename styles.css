@@ -235,3 +235,18 @@ body {
 .slider-nav a:hover {
 	opacity: 1;
 }
+
+/* Image comparison */
+img-comparison-slider {
+    --divider-width: 2px;
+    --divider-color: #c0c0c0;
+    --default-handle-opacity: 0.3;
+  }
+  
+  .slider-example-opacity-and-size {
+  --default-handle-width: 100px;
+  }
+
+  .slider-example-opacity-and-size:focus {
+      --default-handle-opacity: 0;
+  }

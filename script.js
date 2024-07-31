@@ -1,3 +1,5 @@
+
+// MARKDOWN RENDERING
 // Function to fetch the file content and render it with Marked.js
 async function loadMarkdown(markdownFilePath) {
     try {
@@ -37,3 +39,26 @@ async function loadMarkdown(markdownFilePath) {
       button.style.display = 'none';
     }
   };
+
+// CONTROL ACCESS SHOW PAGE SECTIONS, GET USERID HEADER
+document.addEventListener('DOMContentLoaded', function() {
+    fetch("https://cleanmybuilding.co/tenants/", {
+        method: 'GET',
+        credentials: 'same-origin'
+    })
+    .then(response => {
+        console.log(response.headers);  // Log all headers to the console for inspection
+        response.headers.forEach((value, name) => {
+            console.log(`${name}: ${value}`);  // Log each header and its value
+        });
+        const userEmail = response.headers.get('X-User-ID');  // Fetch the correct header
+        console.log('User Email:', userEmail); // Log the user email to ensure it's being fetched correctly
+        if (userEmail) {
+            localStorage.setItem('userEmail', userEmail);  // Store the userEmail
+            controlAccess(userEmail);
+        }
+    })
+    .catch(error => console.error('Error:', error));
+});
+
+// SHOW PAGE SECTIONS BASED ON USERID
