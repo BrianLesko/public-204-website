@@ -1,6 +1,6 @@
-<div style="display: flex; align-items: center; justify-content: space-between;">
-    <img src="/elev.png" alt="" style="width: 250px; flex: 0.5;">
-    <h1 style="text-align: center; flex: 1;">My Student Rental</h1>
+<div style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap">
+    <img src="/elev.png" alt="" style="width: 250px; max-width: 50%; flex: 0.5;">
+    <h1 style="text-align: center; flex: .5;">204 E Oakland</h1>
     <div style="flex: 0.5;"></div>
 </div>
 
@@ -36,10 +36,10 @@
   <div class="full-width-grey-bg" style="height: 130px;">
     <div style="display: flex; align-items: center; width: 100%; max-width: 960px; margin: auto;">
       <div style="text-align: center; font-size: 43px;">
-        <img src="me_sticker.png" alt="A memoji of myself, Brian Lesko" style="width: 56%; max-width: 300px; display: block; margin: 0 auto;">
+        <img src="profile.png" alt="A memoji of myself, Brian Lesko" style="width: 56%; max-width: 300px; display: block; margin: 0 auto;">
       </div>
       <div style="font-size: 16px;">
-        This rental is run, owned, and managed by 204 E Oakland LLC, but the history starts with a more individual story. Connect with me <a href="#" class="jump-to">here</a>. But let's get on with what you came for.
+        Hi, I'm Brian. While I was working towards my masters degree, 204 started as my personal project. Now, its managed by 204 E Oakland LLC.
       </div>
     </div>
   </div>
@@ -54,9 +54,9 @@
 ## Renovation
 ---
 
-204 has modern rennovations and historic detail. The home has real the red oak wood flooring and beautiful wooden trimwork, in part due to the preservation efforts of the historic district that the home reside in. Yet, despite the age, the home is outfitted with central air, an updated kitchen, and two full bathrooms.
+204 has modern rennovations and historic detail. With oak flooring, beautiful trimwork, and granite countertops, the home is well stylized. At the same time, the home features central air, updated appliances, and two full bathrooms. Oh and there are up to 5 bedrooms.
 
-Take a look at these photos, taken by me in July of 2023. 
+Take a look at these photos, taken in July of 2023. 
 
 <section class="container">
 	<div class="slider-wrapper">
@@ -88,9 +88,7 @@ Take a look at these photos, taken by me in July of 2023.
 	</div>
 </section>
 
-You can check out the image gallery [here](https://mystudentrental.co/gallery/) to see even more photos.
-
-Want to learn more about how and when the home was rennovated? Ask me about it. I rennovated the place while returning to Ohio State University to get my Masters degree.
+You can check out the image gallery (coming soon) to see even more photos.
 
 <a id="2"></a>
 
@@ -99,7 +97,7 @@ Want to learn more about how and when the home was rennovated? Ask me about it. 
 ## Location
 ---
 
-While 204 is not the closest to center of campus, the beauty of the tree lined street brings you out of the city and into something that feels more like *Your place*.
+While 204 is close to campus, the beauty of the tree lined street brings you out of the city and into something that feels more like *Your place*.
 
 <div style="display: flex;"><div style="flex: 80%; padding-left: 0px; line-height: 1.35; padding-bottom: 10px; padding-top: 20px;">
 
@@ -115,13 +113,13 @@ While 204 is not the closest to center of campus, the beauty of the tree lined s
 
 </div></div>
 
-The short walk to north campus, is very bikeable and walkable. It took me about 12 minutes to walk to Scott traditions, 8 minutes to make it to the starbucks on high and lane, and about 25 mintues to the ohio union. 
+The short walk to north campus, is very bikeable and walkable. It took me about 12 minutes to walk to Scott traditions, 8 minutes to make it to the Starbucks on high and lane, and about 25 minutes to the Ohio Union. 
 
 <p align="center">
   <img id="" src="media/map.png" alt="" style="max-width: 100%; border-radius: 0.5rem;" />
 </p>
 
-Oh, I almost forgot to mention, there is permit street parking and a back gravel lot that can fit up to four vehicles. 
+While the home is within walking distance of most places, off street parking is also available for up to 3 cars. On top of that, there is permit street parking. 
 
 <a id="3"></a>
 
@@ -131,7 +129,7 @@ Oh, I almost forgot to mention, there is permit street parking and a back gravel
 ## Dedication
 ---
 
-You wont find many people that care more about customer service and providing a good place to live - in part because I rennovated the home myself.
+You wont find many people that care more about customer service and providing a good place to live - in part because I renovated the home myself.
 
 Despite being a smaller operation, I have the capability to fix any issues that may arise thanks to having the proper connections and from having a healthy emergency fund and proper management plan.
 
@@ -144,14 +142,16 @@ Currently accepting applications for the *2025-2026* school year. Rent of 4200 m
 
 <div style = "margin-top: 75px;">
 <p align="center">
+<a href="https://mystudentrental.co/apply/" target="_blank">
   <button class="button">Apply Now!</button>
+</a>
 </p>
 <div style = "margin-top: 75px;"><a id="7"></a></div>
 
 ## About me
 ---
 
-Hi, im Brian. I started in real estate during my time at Ohio State where I received my bachelors and masters in mechanical engineering. Now, I balance working as a robotics engineer and managing/maintaining this rental. 
+Hi, I'm Brian. I started in real estate during my time at Ohio State where I received my bachelors and masters in mechanical engineering. Now, I balance working as a robotics engineer and managing/maintaining this rental. 
 
 As good as it sounds, everything was *not* always easy..
 
@@ -170,9 +170,9 @@ As good as it sounds, everything was *not* always easy..
 
 In fact, my first few years were very rough - I let my rental get destroyed by the very first tenants that stayed there.
 
-After those tenants were gone, I spent the next year and a half rehabing the entire home, during the time I was studying robotics engineering and enrolled to receive my masters degree. 
+After those tenants were gone, I spent the next year rehabing the entire home, during the time I was studying engineering and enrolled in my masters program.
 
-Anyways, if you're interested in renting the house, <a href="https://mystudentrental.co/204EOakland/apply/" style="color: #ff5b15; font-size: 1.25em; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Apply here!</a>
+Anyways, if you're interested in renting the house, <a href="https://mystudentrental.co/apply/" style="color: #ff5b15; font-size: 1.25em; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Apply here!</a>
 
 <div style = "margin-top: 100px;">
 <a id="7"></a>
